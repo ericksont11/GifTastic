@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: gray;
+}
+
+img {
+    height:15vh;
+    width: 10vw;
+    margin-left:1vw;
+}
+
+input {
+    width: 40vw;
+    margin-left: 30vw;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+#buttonSection {
+    display: block;
+    margin: auto;
+    width:50vw;
+    background-color: white;
+    margin-bottom: 3vh;
+}
+
+button {
+    margin-left: .5vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+#imageSection {
+    width:90vw;
+    margin: auto;
+}
+
+.imageContainer {
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+
+span {
+    display:block;
+    margin-bottom:1vh;
+    background-color: mediumseagreen;
+    color: white;
+    width: 10vw;
+    margin-left:1vw;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: -1px 0 mediumseagreen, 0 1px mediumseagreen, 1px 0 mediumseagreen, 0 -1px mediumseagreen;
+}
