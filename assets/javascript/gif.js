@@ -6,7 +6,7 @@ var counter = -1;
 
 $("button").on("click", function loadGifs() {
     search = (this.id)
-    $.get('http://api.giphy.com/v1/gifs/search?q='+search+'&api_key=GTQIw05jFUMGro9NhKHEHj7aIoRufMbT&limit=8').then(function(response) {
+    $.get('https://api.giphy.com/v1/gifs/search?q='+search+'&api_key=GTQIw05jFUMGro9NhKHEHj7aIoRufMbT&limit=8').then(function(response) {
         for (i=0; i < response.data.length; i ++) {
             counter++
             var div = $("<div id='div"+i+"' >");
