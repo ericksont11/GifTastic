@@ -1,5 +1,13 @@
 $(document).ready(function() {
 
+gifArray = ["Pac-man", "Metroid", "Mario", "Tetris", "Galaga", "Zelda", "Sims", "Starcraft", "Pokemon"]
+
+for (i=0; i < gifArray.length; i++){
+    var caps = gifArray[i].toUpperCase()
+    var button = $("<button id="+gifArray[i]+" >").html(caps)
+    $("#buttonSection").append(button);
+}
+
 var counter = -1;
 
 $(document).on("click","button", function loadGifs() {
